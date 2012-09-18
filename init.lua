@@ -71,7 +71,7 @@ minetest.register_alias("clay_brick", "default:clay_brick")
 minetest.register_alias("scorched_stuff", "default:scorched_stuff")
 
 -- doors
-minetest.register_alias("door", "doors:door_wood")
+-- minetest.register_alias("door", "doors:door_wood") SEE xdoors2
 
 -- dye
 minetest.register_alias("white", "dye:white")
@@ -218,3 +218,6 @@ minetest.register_alias("build_arrow", "throwing:arrow_build")
 -- tnt
 minetest.register_alias("tnt", "tnt:tnt")
 minetest.register_alias("gunpowder", "tnt:gunpowder")
+
+-- xdoors2
+minetest.register_alias("door", "xdoors2:door")
