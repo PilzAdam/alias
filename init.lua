@@ -128,7 +128,7 @@ minetest.register_alias("wool_pink", "wool:pink")
 minetest.register_alias("scissors", "animalmaterials:scissors")
 minetest.register_alias("lasso", "animalmaterials:lasso")
 minetest.register_alias("net", "animalmaterials:net")
-minetest.register_alias("meat_raw", "animalmaterials:meat_raw")
+-- minetest.register_alias("meat_raw", "animalmaterials:meat_raw") SEE mobs
 minetest.register_alias("feather", "animalmaterials:feather")
 minetest.register_alias("milk", "animalmaterials:milk")
 -- minetest.register_alias("glass", "animalmaterials:glass") SEE DEFAULT
@@ -177,4 +177,6 @@ minetest.register_alias("noteblock", "mesecons_noteblock:noteblock")
 minetest.register_alias("microcontroller", "mesecons_microcontroller:microcontroller")
 minetest.register_alias("delayer", "mesecons_delayer:delayer_off_1")
 
-
+-- mobs
+minetest.register_alias("raw_meat", "mobs:meat_raw")
+minetest.register_alias("meat", "mobs:meat")
