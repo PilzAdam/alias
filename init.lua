@@ -204,3 +204,13 @@ minetest.register_alias("cake_mix", "farming:cake_mix")
 minetest.register_alias("bread", "farming:bread")
 minetest.register_alias("pumpkin_bread", "farming:pumpkin_bread")
 minetest.register_alias("pumpkin_cake_mix", "farming:pumpkin_cake_mix")
+
+-- throwing
+minetest.register_alias("bow_wood", "throwing:bow_wood")
+minetest.register_alias("bow_stone", "throwing:bow_stone")
+minetest.register_alias("bow_steel", "throwing:bow_steel")
+minetest.register_alias("arrow", "throwing:arrow")
+minetest.register_alias("fire_arrow", "throwing:arrow_fire")
+minetest.register_alias("teleport_arrow", "throwing:arrow_teleport")
+minetest.register_alias("dig_arrow", "throwing:arrow_dig")
+minetest.register_alias("build_arrow", "throwing:arrow_build")
