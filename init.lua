@@ -214,3 +214,7 @@ minetest.register_alias("fire_arrow", "throwing:arrow_fire")
 minetest.register_alias("teleport_arrow", "throwing:arrow_teleport")
 minetest.register_alias("dig_arrow", "throwing:arrow_dig")
 minetest.register_alias("build_arrow", "throwing:arrow_build")
+
+-- tnt
+minetest.register_alias("tnt", "tnt:tnt")
+minetest.register_alias("gunpowder", "tnt:gunpowder")
