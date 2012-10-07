@@ -221,3 +221,7 @@ minetest.register_alias("gunpowder", "tnt:gunpowder")
 
 -- xdoors2
 minetest.register_alias("door", "xdoors2:door")
+
+if minetest.setting_get("log_mods") then
+	minetest.log("action", "alias loaded")
+end
